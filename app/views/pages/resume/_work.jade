@@ -1,0 +1,15 @@
+mixin work_head(w)
+  .work-head.push-down-20
+    h3 #{w.role}
+    h4 #{w.name}, #{w.location} 
+      span.inline.subtext (#{w.dates.start} - #{w.dates.end})
+    .description
+      - each b in w.body
+        p= b.join(" ");
+
+.work.hidden.dynamic.section("data-section-target"="work")
+  h2.push-down-20= "Work History"
+  - each w in resume.work
+    mixin work_head(w)
+  - each c in resume.consulting
+    mixin work_head(c)

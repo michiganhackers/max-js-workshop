@@ -1,0 +1,13 @@
+mixin ventures_head(v)
+  .ventures-head.push-down-20
+    h3 #{v.role}
+    h4 #{v.name}, #{v.location} 
+      span.inline.subtext (#{v.dates.start} - #{v.dates.end})
+    .description
+      - each b in v.body
+        p= b.join(" ");
+
+.hidden.dynamic.section.ventures("data-section-target"="ventures")
+  h2.push-down-20= "Ventures"
+  - each v in resume.ventures
+    mixin ventures_head(v)

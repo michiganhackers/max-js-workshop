@@ -1,0 +1,176 @@
+{
+  "personal": {
+    "firstname": "Max"
+  , "lastname": "Seiden"
+  , "image_url": ""
+  , "email": "140dbs@gmail.com"
+  , "phone": "+1 (512) 695-8525"
+  , "address1": "411 North State Street"
+  , "address2": "Ann Arbor MI 48104"
+  , "facebook": "https://facebook.com/mhseiden"
+  , "linkedin": "https://www.linkedin.com/pub/max-seiden/3b/9a2/b40"
+  , "quora": "https://www.quora.com/Max-Seiden"
+  }
+, "skills": [
+    {"category": "Environments", "list": [
+      "Linux"
+    , "OSX"
+    , "Ruby on Rails"
+    , "Node.js"
+    , "CakePHP"
+    , "HTML5 + CSS3 + jQuery"
+    ]}
+  , {"category": "Languages", "list": [
+      "C"
+    , "C++ & STL"
+    , "JavaScript"
+    , "Ruby"
+    , "PHP"
+    , "Python"
+    ]}
+  , {"category": "Tools & APIs", "list": [
+      "HAProxy"
+    , "Git/Hg"
+    , "SSH"
+    , "Amazon Web Services & Linode"
+    , "Facebook API"
+    ]}
+  ]
+, "education": [
+    {
+      "name": "University of Michigan"
+    , "dates": {"start": "September 2009", "end": "Present"}
+    , "degrees": [
+        {"name": "Computer Engineering", "type": "BSE '13"}
+      , {"name": "Jazz (Saxophone) Studies", "type": "BFA '13"}
+    ]
+    , "completed_courses": [
+        {"short_name": "EECS 281", "full_name": "Data Structures and Algorithms"}
+      , {"short_name": "EECS 370", "full_name": "Intro to Computer Organization"}
+      , {"short_name": "EECS 381", "full_name": "Object Oriented and Adv. Programming"}
+      ]
+    , "current_courses": [
+        {"short_name": "EECS 373", "full_name": "Microprocessor Systems"}
+      , {"short_name": "EECS 482", "full_name": "Operating Systems"}
+      , {"short_name": "EECS 591", "full_name": "Distributed Systems"}
+      ]
+    }
+  ]
+, "work": [
+    {
+      "name": "One Kings Lane"
+    , "location": "San Francisco"
+    , "role": "KPCB Engineering Fellow"
+    , "dates": {"start": "Start of May 2012", "end": "End of August 2012"}
+    , "body": [
+        [
+          "I was one of 30 students in the inaugural class of VC firm Kleiner Perkins Caufield & Byers's [KPCB] engineering fellows program." 
+        , "I worked as a software engineering intern at their portfolio company, One Kings Lane [OKL]."
+        , "During my internship, I worked on and shipped code for three (3) high-impact, Ruby on Rails projects:"
+        ]
+      , [
+          "&#8226; I was a full stack developer with the groundbreaking, design, and implementation of multiple iterations of OKLs internal and vendor-facing communications platform."
+        , "I specifically worked on consolidating all email, comment, and direct-message conversations into a single representation, without disrupting the existing user workflow."
+        ]
+      , [
+          "&#8226; I was the technical lead and primary front-end developer for the primary intern project: the reimplementation and full testing, of an existing PHP application."
+        , "I primarily focused on refactoring the existing user interface, while also iterating based on feedback from members of teams across the company."
+        ]
+      , [
+          "&#8226; I was the sole backend developer for the refactoring of OKL's vendor application process."
+        , "The project cut down on user interface complexity and application review time, while greatly increasing the depth and breadth of the data collected."
+        ]
+      ]
+    }
+  , {
+      "name": "University of Michigan"
+    , "location": "Ann Arbor"
+    , "role": "Lab Assistant, Adv. Computer Architecture Lab"
+    , "dates": {"start": "Start of June 2011", "end": "End of August 2011"}
+    , "body": [
+        [
+          "I researched and implemented sound spatialization and synthesis techniques for use in a platform that would enable the visually impaired to understand an environment through auditory cues." 
+        , "This was part of a poster & paper-winning project that was exploring the feasibility of hardware solutions for real-time feature extraction and classification."
+        , "The end goal was to utilize the hardware on mobile devices in order to decrease power consumption and increase the device's capabilities." 
+        , "I worked primarily in CSound, a sound synthesis language very similar to assembly."
+        ]
+      ]
+    }
+  ]
+, "ventures": [
+    {
+      "name": "Michigan Hackers"
+    , "location": "Ann Arbor"
+    , "role": "President"
+    , "dates": {"start": "February 2012", "end": "Present"}
+    , "body": [
+        [
+          "Michigan Hackers is a student organization at the University of Michigan that I co-founded in February of 2012."
+        , "It exists to foster a community of individuals who solve problems through the innovative use of technology."
+        , "We seek to host tech talks, hackathons, group work sessions, mock technical interviews, recruiting events, and social gatherings."
+        , "Our end goal is to build and connect the network of talented \"hackers\" with great opportunities, both on and off campus."
+        ]
+      ]
+    }
+  , {      
+      "name": "Eventivore.com, LLC"
+    , "location": "Ann Arbor"
+    , "role": "Co-Founder"
+    , "dates": {"start": "November 2011", "end": "Present"}
+    , "body": [
+        [
+          "Eventivore is a map-based, event-discovery platform that I co-founded with another UofM EECS undergrad."
+        , "It began as a hackathon-winning project that aimed to solve the problem of discovering upcoming Facebook events."
+        , "We went on become finalists in a local Ann Arbor pitch competition, and traveled to San Francisco to pitch on the UofM, Center for Entrepreneurship’s Bay Area Trip."
+        , "The hackathon version of the site was written in PHP and MySQL, while the second iteration was written in Node.js and MongoDb."
+        , "I did full full-stack development for both major iterations, researched the event-discovery space, and co-authored all of our pitch materials."
+        ]
+      ]
+    }
+  , {
+      "name": "Phuud.com"
+    , "location": "Ann Arbor"
+    , "role": "Co-Founder"
+    , "dates": {"start": "May 2011", "end": "September 2011"}
+    , "body": [
+        [
+          "Phuud.com was a social cooking platform that five (5) friend's and I spent a summer imagining, designing, and developing."
+        , "Our original idea was to enable college students to post a list of ingredients, favorite a set of recipes, and get matched with other college students who had complementary ingredients and similar taste."
+        , "We ultimately built a \"potluck management\" app that allowed users to select recipes, claim ingredients, and generally be more organized when planning group meals."
+        , "The application was built in CakePHP, and I assumed the role of lead architect and sole backend developer."
+        ]
+      ]
+    }
+  ]
+, "consulting": [
+    {
+      "name": "Rapt.fm"
+    , "location": "Ann Arbor"
+    , "role": "Software Consultant and Architect"
+    , "dates": {"start": "March 2012", "end": "July 2012"}
+    , "body": [
+        [
+          "Rapt.fm is a Detroit-based startup that enables rappers, enthusiasts, and consumers to compete in online rap tournament, as well as real-time rap battles."
+        , "The company began at Ann Arbor Startup Weekend and spent the 2012 summer in the BizdomU Accelerator program, where they raised a seed investment round."
+        , "I served as their primary technical consultant, and developed a substantial portion of their Node.js MVP."
+        , "This included defining their infrastructure and implementing the core of their REST, WebSocket, background processing, and browser applications."
+        ]
+      ]
+    }
+  ]
+, "projects": [
+    {
+      "name": "Greylock Partners Intern Hackathon"
+    , "location": "San Francisco"
+    , "role": "Compose Together"
+    , "dates": {"start": "July 21st", "end": "July 22nd"}
+    , "body": [
+        [
+          "A friend and I built, in 24 hours, a site that enabled two \"performers\" to create music together, in real-time, over the internet."
+        , "I designed and built an in-browser piano and drum machine and defined the playback and synchronization scheme."
+        , "We were selected, out of 40 teams, for the top 10, and pitched our hack to Reid Hoffman (LinkedIn Founder), Kevin Systrom (Instagram Founder), Mike Schroepfer (Facebook VPE), and Mike Olson (Cloudera CEO)."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+mixin personal_left(p)
+  .left50
+    h1= [p.firstname, p.lastname].join(" ");
+    h5
+      i 
+        a(href="mailto:#{p.firstname} #{p.lastname} <#{p.email}>")= p.email
+      i= p.phone
+
+.personal.section
+  mixin personal_left(resume.personal)
+

@@ -1,0 +1,41 @@
+mixin school_head(e)
+  .education-head
+    .left50
+      h3= e.name
+        span.subtext (#{e.dates.start} - #{e.dates.end})
+    .right50
+      ul
+      - each d in e.degrees
+        li #{d.name} | <strong>#{d.type}</strong>
+          
+
+mixin school_courses(e)
+  .education-courses
+    .left25
+      h4= "Current Courses"
+        span.subtext= "(complete list)"
+    .right75
+      - each c in e.current_courses
+        li #{c.full_name} | <strong>#{c.short_name}</strong>
+
+  .education-courses
+    .left25
+      h4= "Completed Courses"
+        span.subtext= "(partial list)"
+    .right75
+      ul
+      - each c in e.completed_courses
+        li #{c.full_name} | <strong>#{c.short_name}</strong>
+
+
+.hidden.dynamic.section.education("data-section-target"="education")
+  h2.push-down-20= "Education"
+  - each e in resume.education
+    .push-down-20
+     mixin school_head(e)
+     mixin school_courses(e)
+  .skills
+    h2.push-down-20= "Skills"
+    - each s in resume.skills
+      h4= s.category
+      p= s.list.join(", ")

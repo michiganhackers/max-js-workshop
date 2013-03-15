@@ -1,0 +1,20 @@
+!!! 5
+html
+  head
+    include ../globals/head_css
+      block css
+
+    include ../globals/head_js
+      block js
+    
+    include ../globals/head_og
+      block og
+
+    include ../globals/head_meta
+      block meta
+
+  body
+    .wrapper
+      .inner-wrapper
+        block content
+      include ../globals/footer

@@ -1,0 +1,13 @@
+mixin projects_head(p)
+  .projects-head.push-down-20
+    h3 #{p.role}
+    h4 #{p.name}, #{p.location} 
+      span.inline.subtext (#{p.dates.start} - #{p.dates.end})
+    .description
+      - each b in p.body
+        p= b.join(" ");
+
+.hidden.dynamic.section.projects("data-section-target"="projects")
+  h2.push-down-20= "Projects, Hackathons, and Installations"
+  - each p in resume.projects
+    mixin projects_head(p)

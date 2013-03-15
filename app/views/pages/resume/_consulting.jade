@@ -1,0 +1,13 @@
+mixin consulting_head(c)
+  .consulting-head.push-down-20
+    h3 #{c.role}
+    h4 #{c.name}, #{c.location} 
+      span.inline.subtext (#{c.dates.start} - #{c.dates.end})
+    .description
+      - each b in c.body
+        p= b.join(" ");
+
+.hidden.dynamic.section("data-section-target"= "consulting")
+  h2.push-down-20= "Consulting"
+  - each c in resume.consulting
+    mixin consulting_head(c)

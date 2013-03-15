@@ -1,0 +1,224 @@
+/** Global Styles **/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: inherit; 
+  text-decoration: none;
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-opacity {
+  height: 0px;
+  overflow: hidden;
+  /* !important is dangerous, don't do this at home ;-) */
+  border: none !important;
+  padding: 0px !important;
+  opacity: 0.0 !important; 
+}
+
+.clear {
+  clear: both;
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+.wrapper {
+  width: 100%;
+  color: #4C4949;
+}
+
+.inner-wrapper {
+  width: 690px;
+  overflow: hidden;
+
+  margin: 50px auto 20px auto;
+  padding: 15px;
+
+
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid #CCC;
+  box-shadow: 0px 0px 2px #999; 
+
+  background: #F4F2F2;
+  -webkit-transition: height 0.5s;
+}
+
+.left50, .right50 {
+  display: inline-block;
+  width: 50%;
+  color: #6C6969;
+  vertical-align: bottom;
+}
+
+.left50 {
+  text-align: left;
+}
+
+.right50 {
+  text-align: right;
+}
+
+.left25 {
+  width: 25%;
+  display: inline-block;
+  color: #6C6969;
+  vertical-align: top;
+}
+
+.right75 {
+  width: 75%;
+  display: inline-block;
+  color: #6C6969;
+  vertical-align: top;
+}
+
+span.subtext {
+  display: block;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: normal;
+  margin-top: 4px;
+  color: #6C6969;
+}
+
+span.subtext.inline {
+  display: inline;
+}
+
+.push-down-20 {
+  margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, strong {
+  color: #4C4949;
+}
+
+h1 {
+  font-size: 48px; 
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 24px; 
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 12px; 
+  font-weight: normal;
+  color: #6C6969;
+  padding: 5px 2px 0px 2px;
+}
+
+.section {
+  padding-bottom: 16px;
+  border-bottom: 2px dotted #AAA;
+}
+
+.section.dynamic {
+  opacity: 1.0;
+  -webkit-transition: opacity 1.0s 0.1s;
+}
+
+/** Navbar Section **/
+.navbar ul {
+  padding-top: 16px;
+}
+
+.navbar li {
+  margin-right: 20px;
+  display: inline-block;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: #6C6969;
+}
+
+.navbar li.active {
+  text-decoration: underline;
+  color: #4C4949;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #4C4949;
+}
+
+/** Personal Section **/
+.personal {
+  max-height: 100px;
+}
+
+.personal ul {
+  text-align: right;
+}
+
+.personal li {
+  display: inline-block;
+  padding: 2px 5px;
+}
+
+.personal h5 i {
+  padding: 0px 2px;
+}
+
+.personal .left50 h5 i {
+  margin-left: 14px;
+}
+
+.personal a:hover {
+  color: #4C4949;
+}
+
+/** Education Section **/
+.education {
+
+}
+
+.education li {
+  font-size: 13px;
+  text-align: right;
+}
+
+.education-courses {
+  margin-top: 16px;
+}
+
+.skills h4 {
+  margin-top: 10px;
+}
+
+.skills p {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #6C6969;
+}
+
+/** Work, Ventures, Consulting, Projects sections **/
+.consulting-head h4, .ventures-head h4, .projects-head h4, .work-head h4 {
+  margin-top: 6px;
+}
+
+.description {
+}
+
+.description p {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #6C6969;
+}
